@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'superduper.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'super.db.'),
+        'NAME': os.path.join(BASE_DIR, 'super.db'),
     }
 }
 
