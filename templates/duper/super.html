@@ -2,6 +2,10 @@
 {% extends "base.html" %}
 {% block hello %}
 {{ block.super }} World
+<br>
+<br>
+<br>
+<a href="{% url "duper:no_super" %}" title="No so super">Not Super</a>
 {% endblock %}
 
 
